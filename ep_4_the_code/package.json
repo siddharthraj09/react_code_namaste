@@ -1,17 +1,13 @@
 {
-  "name": "ep_2_igniting_our_app",
+  "name": "ep_4_the_code",
   "version": "1.0.0",
-  "description": "this is react tutorial",
-  
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "siddharth raj",
-  "license": "ISC",
-  
   "devDependencies": {
     "parcel": "^2.11.0",
     "process": "^0.11.10"
@@ -20,5 +16,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browserslist": ["last 2 Chrome versions", "last 2 Firefox versions"]
+  "author": "",
+  "license": "ISC"
 }
