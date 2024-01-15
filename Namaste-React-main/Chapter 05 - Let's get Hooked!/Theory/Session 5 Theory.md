@@ -79,6 +79,7 @@ A: In React version 16.8, React introduced a new pattern called Hooks. React Hoo
 Hooks allow you to reuse stateful logic without changing your component hierarchy. This makes it easy to share Hooks among many components or with the community.
 ### React provides a bunch of standard in-built hooks:
 - useState: To manage states. Returns a stateful value and an updater function to update it.
+whenever a state variable update react will re-render the components 
 - useEffect: To manage side-effects like API calls, subscriptions, timers, mutations, and more.
 - useContext: To return the current value for a context.
 - useReducer: A useState alternative to help with complex state management.
