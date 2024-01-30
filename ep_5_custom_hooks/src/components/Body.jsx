@@ -92,7 +92,7 @@ const Body = () => {
           />
         </div> */}
       </div>
-      <div className="res-container flex flex-wrap">
+      <div className=" flex flex-wrap m-auto justify-center">
         {filteredRestaurants.map((restaurant) => {
           return (
             <Link

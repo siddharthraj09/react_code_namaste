@@ -14,6 +14,9 @@ import appStore from "./utils/appStore";
 const About = lazy(() => {
   return import("./components/About");
 });
+const Cart = lazy(() => {
+  return import("./components/Cart");
+});
 const AppLayout = () => {
   const [userName, setUserName] = useState();
 
@@ -60,6 +63,14 @@ const appRouter = createBrowserRouter([
       {
         path: "/restaurant/:resId",
         element: <RestaurantMenu />,
+      },
+      {
+        path: "/cart",
+        element: (
+          <Suspense fallback={<h1> Loading .....</h1>}>
+            <Cart />
+          </Suspense>
+        ),
       },
     ],
     errorElement: <Error />,
